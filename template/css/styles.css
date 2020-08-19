@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Starwars;
+  src: local("Starwars"), url(../fonts/SFDistantGalaxy.ttf);
+  font-weight: bold;
+}
+
+#root {
+  margin-top: 50px;
+  font-family: 'Starwars';
+  color: #ffe919;
+  letter-spacing: 2px;
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/starWarsVertical.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#bootstrap-overrides .navbar {
+  justify-content: center;
+}
+
+#bootstrap-overrides .navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+#bootstrap-overrides .btn-outline-success {
+  color: #ffe919;
+  border-color: #ffe919;
+}
+
+#bootstrap-overrides .btn-outline-success:hover {
+  color: #000;
+  background-color: #ffe919;
+  border-color: #ffe919;
+}
+
+#bootstrap-overrides .btn.btn-outline-success.focus, .btn.btn-outline-success:focus {
+  box-shadow: none;
+}
+
+#bootstrap-overrides .btn.btn-outline-success.active, .btn.btn-outline-success:active {
+  box-shadow: none;
+}
+
+#bootstrap-overrides .btn-success {
+  color: #ffe919;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #ffe919;
+}
+
+#bootstrap-overrides .btn-danger {
+  color: #ffe919;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #ffe919;
+}
+
+#bootstrap-overrides .btn-primary {
+  color: #000;
+  background-color: #ffe919;
+  border-color: #ffe919;
+}
